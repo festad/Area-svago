@@ -57,16 +57,12 @@ def personalization_of_theme():
         )
     mytheme.background_color = bg_image
     
-    # New personalizations go here :)
+    # New personalizations go here :
     mytheme.title_background_color = (0,0,0,0) # Transparent
 
     LIGHT_VIOLET_COLOR = (230,0,150)
     mytheme.widget_font_color = LIGHT_VIOLET_COLOR
     mytheme.title_font_color  = LIGHT_VIOLET_COLOR
-    # Attention here!
-    # x refers to the width and y to the height,
-    # title_offset = (x,y),
-    # but for the menu size: Menu(width,height).. they swapped!
     mytheme.title_offset = (int(MENU_WIDTH/2)-250,
                             int(MENU_HEIGHT/4))
 
